@@ -1,0 +1,24 @@
+{
+  "name": "pdx-mixins",
+  "version": "0.0.1",
+  "authors": [
+    "General Electric"
+  ],
+  "description": "Sass mixins for Predix Design Extension",
+  "main": "_tools.mixins.scss",
+  "keywords": [
+    "pdx",
+    "sass",
+    "mixins"
+  ],
+  "license": "Apache 2",
+  "homepage": "https://github.sw.ge.com/jrogerson/pdx-mixins.git",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
