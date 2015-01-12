@@ -1,4 +1,4 @@
-pdx-mixins
+px-mixins
 ==========
 
-Sass mixins for Predix Design Extension
+Sass mixins for Predix Experience

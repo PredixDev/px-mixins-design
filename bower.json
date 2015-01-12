@@ -1,10 +1,10 @@
 {
-  "name": "pdx-mixins",
+  "name": "px-mixins",
   "version": "0.0.1",
   "authors": [
     "General Electric"
   ],
-  "description": "Sass mixins for Predix Design Extension",
+  "description": "Sass mixins for Predix Experience",
   "main": "_tools.mixins.scss",
   "keywords": [
     "pdx",
@@ -12,7 +12,7 @@
     "mixins"
   ],
   "license": "Apache 2",
-  "homepage": "git@github.sw.ge.com:jrogerson/pdx-mixins.git",
+  "homepage": "git://github.sw.ge.com/jrogerson/px-mixins.git",
   "private": true,
   "ignore": [
     "**/.*",
