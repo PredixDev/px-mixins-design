@@ -7,7 +7,7 @@
   "description": "Sass mixins for Predix Experience",
   "main": "_tools.mixins.scss",
   "keywords": [
-    "pdx",
+    "px",
     "sass",
     "mixins"
   ],
@@ -22,6 +22,6 @@
     "tests"
   ],
   "dependencies": {
-    "inuit-mixins": "0.2.3"
+    "inuit-mixins": "~0.2.3"
   }
 }
