@@ -1,6 +1,6 @@
 # Mixins
 
-The Predix Experience Mixins module is an extension of the inuitcss [mixins](https://github.com/inuitcss/tools.mixins) module and contains mixins for use across other Px modules.
+The Predix Experience Mixins module is an extension of the inuitcss [Mixins](https://github.com/inuitcss/tools.mixins) Module and contains mixins for use across other Px modules.
 
 ## Dependency
 
@@ -24,7 +24,7 @@ Once installed, `@import` into your project's Sass file in its Tools layer:
 
     @import "px-mixins-design/sass/tools.mixins";
 
-## Functions provided
+## Mixins provided
 
 The following Sass mixins are provided:
 
