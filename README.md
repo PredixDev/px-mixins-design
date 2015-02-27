@@ -26,6 +26,6 @@ Once installed, `@import` into your project's Sass file in its Tools layer:
 
 ## Functions provided
 
-The following Sass functions are provided:
+The following Sass mixins are provided:
 
 * `font-face`: Generates webfont-friendly font families (can take the following parameters--`$font-family`, `$file-path`, `$weight`, and `$style`)
