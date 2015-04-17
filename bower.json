@@ -22,6 +22,7 @@
     "tests"
   ],
   "dependencies": {
-    "inuit-mixins": "~0.2.3"
+    "inuit-mixins": "~0.2.3",
+    "px-defaults-design": "git://github.sw.ge.com/PXd/px-defaults-design.git#master"
   }
 }

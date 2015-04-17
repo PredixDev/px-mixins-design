@@ -4,8 +4,9 @@ The Predix Experience Mixins module is an extension of the inuitcss [Mixins](htt
 
 ## Dependency
 
-Px's Mixins module depends on one other inuitcss module:
+Px's Mixins module depends on two other inuitcss and PXd modules:
 
+* [px-defaults-design](https://github.sw.ge.com/PXd/px-defaults-design)
 * [tools-mixins](https://github.com/inuitcss/tools.mixins)
 
 ## Upstream dependency

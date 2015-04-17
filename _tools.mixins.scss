@@ -6,7 +6,7 @@
  * Sass mixins for Predix Experience
  */
 
-@import "../inuit-defaults/settings.defaults";
+@import "../px-defaults-design/settings.defaults";
 @import "../inuit-mixins/tools.mixins";
 
 @mixin font-face($font-family, $file-path, $weight: normal, $style: normal) {
