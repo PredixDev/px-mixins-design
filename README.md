@@ -2,6 +2,10 @@
 
 The Predix Experience Mixins module is a fork of the inuitcss [Mixins](https://github.com/inuitcss/tools.mixins) Module and contains mixins for use across other Px modules.
 
+## Sass Documentation
+
+You can review Sass Documentation here: https://github.build.ge.com/pages/PXd/px-mixins-design/sassdoc
+
 ## Dependency
 
 Px's Mixins module depends on one other PXd module:
