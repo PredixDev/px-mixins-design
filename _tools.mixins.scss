@@ -1,13 +1,15 @@
-/*------------------------------------*\
-    #PX-MIXINS-DESIGN
-\*------------------------------------*/
-
-/**
- * Sass mixins for Predix Experience
- */
+////
+/// PX-MIXINS-DESIGN
+/// Sass mixins
+/// @group px-mixins-design
+////
 
 @import "../px-defaults-design/settings.defaults";
 
+/// @name inuit-font-size
+/// @param {Number} $inuit-font-size - Font size in pixels
+/// @param {Number} $inuit-line-height [auto] - Line height in pixels
+/// @output Convert pixel font size into rem based, with appropriate line-height.
 @mixin inuit-font-size($inuit-font-size, $inuit-line-height: auto) {
     font-size: ($inuit-font-size / $inuit-base-font-size) * 1rem;
 
@@ -29,6 +31,13 @@
 
 }
 
+
+/// @name border-right-left
+/// @param {String} $inuit-border-position - Left or right border
+/// @param {Color} $inuit-border-color [inherit] - Border color
+/// @param {Number} $inuit-border-width [1px] - Border width
+/// @param {String} $inuit-border-style - CSS border style value
+/// @output Switch around horizontal borders when `dir=rtl` in HTML
 @mixin border-right-left($inuit-border-position, $inuit-border-color: inherit, $inuit-border-width: 1px, $inuit-border-style: solid) {
     border-#{$inuit-border-position}: $inuit-border-width $inuit-border-style $inuit-border-color;
     &:last-child {
@@ -44,6 +53,12 @@
     }
 }
 
+/// @name font-face
+/// @param {String} $font-family - Name of font family @font-face will use
+/// @param {String} $file-path - Path to webfont file
+/// @param {String} $weight [normal] - CSS Font weight value
+/// @param {String} $style [normal] - CSS Font style value
+/// @output Generate various required paths etc for use with `@font-face`
 @mixin font-face($font-family, $file-path, $weight: normal, $style: normal) {
   @font-face {
     font-family: $font-family;
