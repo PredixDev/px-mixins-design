@@ -6,6 +6,7 @@
 
 @import "../px-defaults-design/settings.defaults";
 
+
 /// @name inuit-font-size
 /// @param {Number} $inuit-font-size - Font size in pixels
 /// @param {Number} $inuit-line-height [auto] - Line height in pixels
@@ -52,6 +53,7 @@
       }
     }
 }
+
 
 /// @name font-face
 /// @param {String} $font-family - Name of font family @font-face will use
