@@ -20,9 +20,7 @@ Install this module and its dependency using bower:
 
 Once installed, `@import` into your project's Sass file in its Tools layer:
 
-    @import "../px-mixins-design/tools.mixins";
-
-See [px-getting-started](https://github.build.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
+    @import "px-mixins-design/_tools.mixins.scss";
 
 ## Mixins provided
 
