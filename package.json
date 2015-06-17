@@ -1,6 +1,6 @@
 {
   "name": "px-mixins-design",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Sass mixins for Predix Experience",
   "private": true,
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.build.ge.com/PXd/px-mixins-design.git"
+    "url": "https://github.build.ge.com/PXd/px-mixins-design.git"
   },
   "author": "General Electric",
   "license": "Apache 2",
