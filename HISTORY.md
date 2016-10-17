@@ -1,3 +1,7 @@
+v0.2.8
+==============================
+* added new demo and auto-ghp
+
 v0.2.7
 ==============================
 * added oss_notice to bower ignore and updated readme
