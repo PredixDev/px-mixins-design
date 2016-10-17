@@ -22,6 +22,9 @@ PAGE. IT SHOULD NOT PROVIDE RULES FOR THE MODULE.
 //Settings
 @import "px-colors-design/_settings.colors.scss";
 
+//Tools
+@import "../_tools.mixins.scss";
+
 // Generic
 @import "px-normalize-design/_generic.normalize.scss";
 @import "px-box-sizing-design/_generic.box-sizing.scss";
@@ -31,8 +34,6 @@ PAGE. IT SHOULD NOT PROVIDE RULES FOR THE MODULE.
 @import "px-flexbox-design/_base.flexbox.scss";
 @import "px-viewport-design/_base.viewport.scss";
 @import "px-typography-design/_base.typography.scss";
-
-@import "../_base.iconography.scss";
 
 // Component
 
