@@ -60,12 +60,14 @@
 /// @param {String} $file-path - Path to webfont file
 /// @param {String} $weight [normal] - CSS Font weight value
 /// @param {String} $style [normal] - CSS Font style value
+/// @param {String} $font-display [auto] - CSS Font font-display value
 /// @output Generate various required paths etc for use with `@font-face`
-@mixin font-face($font-family, $file-path, $weight: normal, $style: normal) {
+@mixin font-face($font-family, $file-path, $weight: normal, $style: normal, $font-display: auto) {
   @font-face {
     font-family: $font-family;
     font-weight: $weight;
     font-style: $style;
+    font-display: $font-display;
     src: url('#{$file-path}.eot');
     src: url('#{$file-path}.eot?#iefix')               format('embedded-opentype'),
          url('#{$file-path}.woff')                     format('woff'),

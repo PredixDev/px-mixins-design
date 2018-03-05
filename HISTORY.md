@@ -1,3 +1,7 @@
+v1.1.0
+==================
+* Add font-display argument to font-face mixin
+
 v1.0.2
 ==================
 * Upgrade docs to use Polymer 2.x, bump px-demo and px-sass-doc dependencies
