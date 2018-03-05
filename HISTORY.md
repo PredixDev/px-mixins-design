@@ -1,3 +1,7 @@
+v1.2.0
+==================
+* Add woff2 support to font-face mixin
+
 v1.1.0
 ==================
 * Add font-display argument to font-face mixin
