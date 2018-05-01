@@ -2,16 +2,16 @@
     {
         "description": "",
         "commentRange": {
-            "start": 10,
-            "end": 13
+            "start": 26,
+            "end": 29
         },
         "context": {
             "type": "mixin",
             "name": "inuit-font-size",
             "code": "\n    font-size: ($inuit-font-size / $inuit-base-font-size) * 1rem;\n\n    @if $inuit-line-height == auto {\n        line-height: ceil($inuit-font-size / $inuit-base-line-height) * ($inuit-base-line-height / $inuit-font-size);\n    }\n\n    @else {\n\n        @if (type-of($inuit-line-height) == number or $inuit-line-height == inherit or $inuit-line-height == normal) {\n            line-height: $inuit-line-height / $inuit-font-size;\n        }\n\n        @elseif ($inuit-line-height != none and $inuit-line-height != false) {\n            @warn \"D’oh! ‘#{$inuit-line-height}’ is not a valid value for `line-height`.\"\n        }\n\n    }\n\n",
             "line": {
-                "start": 14,
-                "end": 33
+                "start": 30,
+                "end": 49
             }
         },
         "parameter": [
@@ -41,16 +41,16 @@
     {
         "description": "",
         "commentRange": {
-            "start": 36,
-            "end": 41
+            "start": 52,
+            "end": 57
         },
         "context": {
             "type": "mixin",
             "name": "border-right-left",
             "code": "\n    border-#{$inuit-border-position}: $inuit-border-width $inuit-border-style $inuit-border-color;\n    &:last-child {\n      border-#{$inuit-border-position}-width: 0;\n    }\n    [dir=rtl] & {\n      &:first-child {\n        border-#{$inuit-border-position}-width: 0;\n      }\n      &:last-child {\n        border-#{$inuit-border-position}-width: $inuit-border-width;\n      }\n    }\n",
             "line": {
-                "start": 42,
-                "end": 55
+                "start": 58,
+                "end": 71
             }
         },
         "parameter": [
@@ -91,16 +91,16 @@
     {
         "description": "",
         "commentRange": {
-            "start": 58,
-            "end": 63
+            "start": 74,
+            "end": 80
         },
         "context": {
             "type": "mixin",
             "name": "font-face",
-            "code": "\n  @font-face {\n    font-family: $font-family;\n    font-weight: $weight;\n    font-style: $style;\n    src: url('#{$file-path}.eot');\n    src: url('#{$file-path}.eot?#iefix')               format('embedded-opentype'),\n         url('#{$file-path}.woff')                     format('woff'),\n         url('#{$file-path}.ttf')                      format('truetype'),\n         url('#{$file-path}.svg##{$font-family}')      format('svg');\n  }\n",
+            "code": "\n  @font-face {\n    font-family: $font-family;\n    font-weight: $weight;\n    font-style: $style;\n    font-display: $font-display;\n    src: url('#{$file-path}.eot');\n    src: url('#{$file-path}.eot?#iefix')               format('embedded-opentype'),\n         url('#{$file-path}.woff2')                     format('woff2'),\n         url('#{$file-path}.woff')                     format('woff'),\n         url('#{$file-path}.ttf')                      format('truetype'),\n         url('#{$file-path}.svg##{$font-family}')      format('svg');\n  }\n",
             "line": {
-                "start": 64,
-                "end": 75
+                "start": 81,
+                "end": 94
             }
         },
         "parameter": [
@@ -125,6 +125,12 @@
                 "name": "style",
                 "default": "normal",
                 "description": "CSS Font style value"
+            },
+            {
+                "type": "String",
+                "name": "font-display",
+                "default": "auto",
+                "description": "CSS Font font-display value"
             }
         ],
         "output": "Generate various required paths etc for use with `@font-face`",
